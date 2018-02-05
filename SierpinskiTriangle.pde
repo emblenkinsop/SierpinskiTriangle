@@ -1,14 +1,14 @@
 int count;
 
 public void setup() {
-  size(900,900);
+  size(900,800);
   background(0);
   count = 0;
   fill(255,0,0);
 }
 public void draw() {
   if (count < 2187)
-    sierpinski(0,900,900);
+    sierpinski(0,800,900);
 }
 public void mouseDragged()//optional
 {
